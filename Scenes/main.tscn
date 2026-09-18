@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://ismhttci2ill"]
+
+[ext_resource type="Texture2D" uid="uid://5whei4dmpx86" path="res://Sprites/Map/_LPNU_Map.png" id="1_jjgbg"]
+[ext_resource type="Script" uid="uid://b4kakiexifocg" path="res://Scripts/map_scroll.gd" id="2_bo1nx"]
+
+[node name="Main" type="Control" unique_id=945785586]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Map" type="TextureRect" parent="." unique_id=504067214]
+layout_mode = 0
+offset_right = 6003.72
+offset_bottom = 3120.12
+texture = ExtResource("1_jjgbg")
+script = ExtResource("2_bo1nx")
